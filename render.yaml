@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: chatgpt-server
+    name: powergpt
     env: python
     plan: free
     buildCommand: pip install -r requirements.txt
